@@ -1,0 +1,27 @@
+<div class="container bg-primary">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h5>Access Office Register</h5><hr>
+                </div>
+
+                <form [formGroup]="loginForm"(ngSubmit)="logIn()">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input formControlName="email" placeholder="Input Email Address" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input formControlName="password" placeholder="Input Password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                </form>
+                <div class="link">
+                    <span>New User?</span> <a [routerLink]="['/signup']"> Signup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

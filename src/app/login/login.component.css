@@ -1,0 +1,33 @@
+.container {
+  height: 460px;
+  font-weight: 600;
+}
+
+.card {
+  margin-top: 15px;
+  border-radius: 10%;
+  width: 90%;
+  padding: 45px;
+  top: 15%;
+  left: 56%;
+}
+
+h1 {
+  color: rgb(52, 122, 252);
+}
+
+.link {
+  margin-top: 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    top: 30%;
+    left: 6%;
+  }
+}

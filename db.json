@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Osuigwe Paul Obiora",
+      "email": "osuigwepaul.o@gmail.com",
+      "mobile": "08074916871",
+      "address": "Sapienza Lodge, Nsukka, Enugu.",
+      "services": "Frontend dev (Angular.js)"
+    },
+    {
+      "id": 2,
+      "name": "Chikezie Blossom Ihuoma",
+      "email": "chikezieblossom@gmail.com",
+      "mobile": "07045679885",
+      "address": "Sapienza Lodge, Nsukka, Enugu.",
+      "services": "Frontend dev (React.js)"
+    },
+    {
+      "id": 3,
+      "name": "Chigbundu Daniel Chinoyerem",
+      "email": "chigbundu.d@gmail.com",
+      "mobile": "09123496709",
+      "address": "Sapienza Lodge, Nsukka, Enugu",
+      "services": "Frontend dev (Vue.js)"
+    }
+  ],
+  "signup": [
+    {
+      "name": "chike",
+      "email": "chike@gmail.com",
+      "mobile": "383883838",
+      "password": "12345678",
+      "id": 1
+    }
+  
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
